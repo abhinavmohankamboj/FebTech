@@ -1,0 +1,19 @@
+div{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20;
+}
+input{
+  
+  border-color: blue;
+  border-radius: 10px;
+  background-color: aqua;
+}
+button{
+  border-radius: 10px;
+  border-color: blue;
+  background-color: bisque;
+  margin-left: 20px;
+  padding: 5px;
+}
