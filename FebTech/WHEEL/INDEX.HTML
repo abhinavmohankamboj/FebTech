@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wheel Animation</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 50px;
+    }
+    img {
+    
+      width: 200px;
+      transition: transform 0.3s;
+    }
+    .spin {
+      animation: rotateWheel 2s linear infinite;
+    }
+    @keyframes rotateWheel {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: green;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Wheel Toggle with Animation</h1>
+  <img id="wheel" src="/images/wheel-3.png" alt="Wheel">
+
+  <br><br>
+  <button id="toggleBtn" onclick="toggleWheel()">Start</button>
+
+  <h2 id="status">Wheel is Stopped</h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

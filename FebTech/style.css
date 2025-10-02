@@ -1,0 +1,96 @@
+body {
+    font-size: small;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.form-container {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.profile-picture {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 3px solid #333;
+    margin-bottom: 15px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="file"],
+form textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form input[type="radio"] {
+    margin: 0 5px;
+}
+form button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background: green;
+}
+p a {
+    text-decoration: none;
+    color:blue;
+}
+p a:hover {
+    text-decoration: underline;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circle image */
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #333;
+}
+
+.name {
+    font-weight: bold; /* Name bold */
+    margin: 5px 0;
+}
+
+.address {
+    font-weight: normal; /* Address normal text */
+    color: #555;
+    font-size: 14px;
+}
