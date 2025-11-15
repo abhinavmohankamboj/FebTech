@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import DarkModeToggle from "./components/DarkModeToggle";
 import Home from "./components/Pages/Home";
-import Shorts from "./components/Pages/Shorts";
+import Shorts from "./components/Pages/shorts.jsx"
 import Subscriptions from "./components/Pages/Subscriptions";
 import Downloads from "./components/Pages/Downloads";
 import SearchResults from "./components/Pages/Searchresults";
